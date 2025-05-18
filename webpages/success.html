@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MESSAGE SENT!</title>
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="../images/petshoplogo.png" alt="Pet Shop Logo" class="logo">
+
+                <!-- Responsive Menu (Hamburger)-->
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+
+                <ul class="nav-menu">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><button class="dropbtn" onClick="openDropdown()">PETS ▾</button>
+                        <ul class="dropdown-menu">
+                            <li><a href="/webpages/cat.html">CATS</a></li>
+                            <li><a href="/webpages/dog.html">DOGS</a></li>
+                            <li><a href="/webpages/bird.html">BIRDS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/webpages/contact.html">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section>
+                    <div class="image-container dog">
+                        <h1>MESSAGE SENT!</h1>
+                    </div>
+                </section>
+                <div class="success-container">
+                    <div class="success-item">
+                        <h2>Thank you for your message!</h2>
+                        <p>We will get back to you as soon as possible.</p>
+                        <a href="../index.html" class="button">Back to Home</a>
+                    </div>
+                </div>
+            </main>
+        </header>
+    </body>
+    <script src="../scripts/dropdownMenu.js"></script>
+</html>
